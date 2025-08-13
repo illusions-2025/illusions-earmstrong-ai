@@ -3,6 +3,7 @@ let colourMode;
 
 //this function is called once at the start of a sketch
 function setup() {
+
     //create a drawing surface on to the web page
     //this drawing surface is 1000 X 600
     canvas = createCanvas(1000,600);
@@ -36,7 +37,7 @@ function setup() {
 //if stillColour is truthy, image will be black or white
 //but not both (ie no illusion)
 function drawCircles(stillColour){
-
+ellipse(100,100, 100, 100);
 }
 
 //if stillColour is truthy, image will be black or white
