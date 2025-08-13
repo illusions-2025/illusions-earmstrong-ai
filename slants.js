@@ -39,7 +39,9 @@ function setup() {
 function drawCircles(stillColour){
     for (x=1, x < 100, x++)
     {
-    ellipse(x,100, 100, 100); 
+        stroke(0);
+        fill(0);
+        ellipse(x,100, 100, 100); 
     }
 }
 
